@@ -8,14 +8,6 @@
 }
 
 
-
-
-.background{
-display: flex;
-height: 100vh;
-width: 100vw;
-}
-
 .overlay {
 position: fixed; /* Overlay should cover the entire screen */
 top: 0;
@@ -41,3 +33,13 @@ width: 100%;
   flex-direction: column;
 }
 }
+
+
+
+
+.background{
+display: flex;
+height: 100vh;
+width: 100vw;
+}
+
