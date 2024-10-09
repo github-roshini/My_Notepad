@@ -1,6 +1,6 @@
 import { useState } from "react";
 import React from 'react';
-import "../Css/CreateNote.css";
+import "../css/CreateNote.css";
 import { useDispatch } from "react-redux";
 import { addToNotes } from "../../slices/notesslice";
 
