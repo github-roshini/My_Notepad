@@ -1,0 +1,133 @@
+.create-notes {
+    height: 40vh;
+    width: 50vw;
+    background-color: white;
+    position: fixed;
+    top: 27%;
+    left: 27%;
+    z-index: 15;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 2.2vw;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.8vw;
+}
+
+.grp-name {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.grp-name input {
+    padding: 5px 20px;
+    border-radius: 15px;
+    color: #979797;
+    border: 2px solid #CCCCCC;
+    outline: none;
+    font-size: 23px;
+    width: 60%;
+}
+
+.color-choose {
+    display: flex;
+    margin-top: 40px;
+    gap: 50px;
+    align-items: center;
+}
+
+.color {
+    display: flex;
+    gap: 6px;
+}
+
+.color div {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.color div:hover {
+    transform: scale(1.1);
+}
+
+.create-btn {
+    background-color: #001F8B;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    padding: 5px 30px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 80%;
+    cursor: pointer;
+}
+
+.color-option.selected {
+    border: 2px solid #000;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .create-notes {
+        height: 250px;
+        width: 80vw;
+        top: 30%;
+        left: 9.5%;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+    h1 {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .grp-name input{
+        width: 150px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .grp-name {
+        flex-direction: row;
+        gap: 7px;
+    }
+
+    .color-choose {
+        flex-direction: row;
+        gap: 7px;
+    }
+
+    .color div {
+        height: 18px;
+        width: 18px;
+    }
+
+    
+
+    .create-btn {
+        font-size: 16px;
+        margin-left: 35px;
+        margin-top: 30px;
+        height: 32px;
+        width: 170px;
+        text-align: center;
+    }
+}

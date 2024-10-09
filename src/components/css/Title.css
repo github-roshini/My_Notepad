@@ -1,0 +1,39 @@
+.title-component{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo{
+    width: 69px;
+    height: 69px;
+    border-radius: 50px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.note-title{
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 24px;
+}
+
+
+@media (max-width: 768px) {
+    .logo{
+        width: 60px;
+        height: 60px;
+        font-size: 22px;
+    }
+
+    .note-title{
+        font-size: 22px;
+    }
+}
