@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoMdLock } from "react-icons/io";
-import '../components/Css/Home.css'
+import '../components/css/Home.css'
 
 
 const Home = () => {
